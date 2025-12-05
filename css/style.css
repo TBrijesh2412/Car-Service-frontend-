@@ -89,7 +89,7 @@ img {
 }
 
 .hero {
-    background-image: url(/Car/img/Main-Bg.jpg);
+    background-image: url(/img/Main-Bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;   
@@ -131,7 +131,7 @@ section {
 }
 
 .col-img {
-    background-image: url(/Car/img/About.jpg);
+    background-image: url(/img/About.jpg);
     background-position: center;
     background-size: cover;
     min-height: 500px;
@@ -210,7 +210,7 @@ section {
 
 .bodypart:hover {
     color: var(--white);
-    background-image: url(/Car/img/Product-1.jpg);
+    background-image: url(/img/Product-1.jpg);
     background-position: center;
     background-size: cover;
     position:relative;
@@ -218,7 +218,7 @@ section {
 
 .interior:hover {
     color: var(--white);
-    background-image: url(/Car/img/Product-2.jpg);
+    background-image: url(/img/Product-2.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -226,7 +226,7 @@ section {
 
 .lighting:hover {
     color: var(--white);
-    background-image: url(/Car/img/Product-3.jpg);
+    background-image: url(/img/Product-3.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -234,7 +234,7 @@ section {
 
 .wheels:hover {
     color: var(--white);
-    background-image: url(/Car/img/Product-4.jpg);
+    background-image: url(/img/Product-4.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -422,7 +422,7 @@ form .form-control:focus{
 .footer-top {
     padding-top: 150px;
     padding-bottom: 150px;
-    background-image: url(/Car/img/footer-1.jpg);
+    background-image: url(/img/footer-1.jpg);
     background-position: top;
     background-size:cover;
     position: relative;
@@ -575,7 +575,7 @@ form .form-control:focus{
 }
 
 .about {
-    background-image: url(/Car/img/2.jpg);
+    background-image: url(/img/2.jpg);
     height: 40vh;
     background-position: center;
     background-size: cover;
@@ -671,7 +671,7 @@ select:focus{
 
 
 .bg-product {
-    background-image: url(/Car/img/plan-bg.jpg);
+    background-image: url(/img/plan-bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
