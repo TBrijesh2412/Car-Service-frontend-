@@ -2,7 +2,12 @@ name: Deploy static site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]  # or "master" if your branch is master
+    branches: ["main"]
+
+permissions:
+  pages: write
+  id-token: write  # required for deploy-pages v3
+  contents: read   # needed for actions/checkout
 
 jobs:
   deploy:
@@ -18,10 +23,7 @@ jobs:
       - name: Upload static files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
-          # Upload all files in your project root (index.html, css/, js/, img/, etc.)
+          path: .   # uploads all project files
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v3
-        with:
-          commit-message: "Deployed via GitHub Actions"
