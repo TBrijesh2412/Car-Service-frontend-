@@ -630,8 +630,14 @@ form .form-control:focus {
         font-size: x-large;
     }
 
+    
     .bottom {
         padding: 0 !important;
+        background-color: rgba(0, 0, 0, 0.708);
+    }
+
+    .row{
+        margin: auto !important;
     }
 }
 
