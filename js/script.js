@@ -1,3 +1,5 @@
+console.log("JS loaded successfully");
+
 var commonValues ={
     Toyota : ["Camry","Corolla","RAV4","Highlander","Tacoma"],
     Volkswagen :["Golf","Jetta","Passat","Tiguan","Atlas"],
